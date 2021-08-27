@@ -190,5 +190,5 @@ if __name__ == '__main__':
     w = World()
     w.load_data('GHCN_QCU')
     # This example will plot the average temperature across the US per year.
-    w.get_monthly_average(year_range=(1900, 2018), verbose=True, code='AG', min_coverage=0, full_range=True)
+    w.get_monthly_average(year_range=(1900, 2018), verbose=True, code='US', min_coverage=0, full_range=True)
     w.plot_data('Annual')
